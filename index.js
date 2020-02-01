@@ -1,2 +1,4 @@
 // Your code here
-const mapToNegativize = 
+function mapToNegativize(arr){
+  
+} 
