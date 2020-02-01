@@ -7,3 +7,6 @@ function mapToNoChange(arr){
   return arr;
 }
 
+function mapToDouble(arr){
+  return arr.map(el => el * 2);
+}
