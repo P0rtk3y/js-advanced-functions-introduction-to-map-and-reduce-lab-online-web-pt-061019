@@ -20,5 +20,5 @@ function reduceToTotal(arr, startingPoint = 0){
 }
 
 function reduceToTrue(arr){
-  return arr.every(!!el);
+  return arr.every(el => !!el);
 }
