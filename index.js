@@ -1,6 +1,5 @@
 // Your code here
 function mapToNegativize(arr){
-  arr.forEach(let el of arr){
-    el * -1
-  }
+  arr.forEach(el => el * -1)
+  
 } 
