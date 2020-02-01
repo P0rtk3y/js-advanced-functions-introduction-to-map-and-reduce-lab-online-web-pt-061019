@@ -19,6 +19,6 @@ function reduceToTotal(arr, startingPoint = 0){
   return arr.reduce(function(accumulator, currentVal){return accumulator + currentVal}, startingPoint)
 }
 
-function reduceToTrue(arr){
+function reduceToAllTrue(arr){
   return arr.every(el => !!el);
 }
