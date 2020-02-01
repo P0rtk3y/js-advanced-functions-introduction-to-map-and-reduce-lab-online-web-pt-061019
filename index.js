@@ -22,3 +22,7 @@ function reduceToTotal(arr, startingPoint = 0){
 function reduceToAllTrue(arr){
   return arr.every(el => !!el);
 }
+
+function reduceToAnyTrue(arr){
+  return arr.some(el => !!el);
+}
