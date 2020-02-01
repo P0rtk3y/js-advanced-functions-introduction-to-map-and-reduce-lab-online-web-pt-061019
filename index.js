@@ -12,5 +12,5 @@ function mapToDouble(arr){
 }
 
 function mapToSquare(arr){
-  return arr.map(el => el * el);
+  return arr.map(el => el ** 2);
 }
