@@ -16,5 +16,5 @@ function mapToSquare(arr){
 }
 
 function reduceToTotal(arr, startingPoint = 0){
-  return arr.reduce(function(total, el){return total + el}, total)
+  return arr.reduce(function(accumulator, currentVal){return accumulator + currentVal}, total)
 }
