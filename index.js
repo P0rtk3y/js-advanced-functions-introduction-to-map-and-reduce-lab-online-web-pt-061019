@@ -18,3 +18,7 @@ function mapToSquare(arr){
 function reduceToTotal(arr, startingPoint = 0){
   return arr.reduce(function(accumulator, currentVal){return accumulator + currentVal}, startingPoint)
 }
+
+function reduceToTrue(arr){
+  return arr.every
+}
